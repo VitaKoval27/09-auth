@@ -78,7 +78,7 @@ export default function EditProfile() {
                             name="username"
                             type="text"
                             className={css.input}
-                            defaultValue={userName}
+                            value={userName}
                             onChange={handleChange}
                         />
                     </div>
